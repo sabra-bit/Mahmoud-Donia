@@ -1,0 +1,11 @@
+streamlit
+numpy
+openpyxl==3.1.2
+pandas==1.5.3
+nltk==3.8.1
+jaraco.collections==4.3.0
+plotly==5.15.0
+networkx==3.1
+pyvis==0.3.2
+seaborn
+sklearn
