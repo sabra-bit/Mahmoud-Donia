@@ -70,7 +70,7 @@ for index, row in st.session_state['df'].iterrows():
     
     print(index, row['Activity'])
     G.add_edge(row['Activity'],row['next activity'])
-    G.add_node(row['Activity'], size=int(row['Duration']), title='rtype',)
+    G.add_node(row['Activity'], size=int(row['Duration']), title=str(row['Duration']),)
                 
     
 
